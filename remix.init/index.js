@@ -95,6 +95,7 @@ Start development with \`npm run dev\`
   );
 }
 
+// eslint-disable-next-line no-unused-vars
 async function askSetupQuestions({ rootDirectory }) {
   const answers = await inquirer.prompt([
     {
